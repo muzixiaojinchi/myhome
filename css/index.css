@@ -1,0 +1,509 @@
+/*
+* @Author: Administrator
+* @Date:   2018-04-12 08:15:06
+* @Last Modified by:   Administrator
+* @Last Modified time: 2018-04-13 15:35:07
+*/
+*{
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+.big{
+	width: 100%;
+	height: 100%;
+	margin: 0 auto ;
+}
+.header_title{
+	/* width: 1200px; */
+	width: 100%;
+	height:50px ;
+	background: #fff;
+	margin: 0 auto;
+}
+.neikaun{
+	width: 1200px; 
+	height:50px ;
+	background: #193334;
+	margin: 0 auto;
+}
+header{
+	width: 1200px;
+	height:560px ;
+	background: pink;
+	margin:0 auto ;
+	background: url('../image/zi .png') no-repeat center;
+	background-size:cover; 
+}
+.header_title_left{
+	font-size: 18px;
+	color: #fff;
+	float: left; 
+	line-height: 50px;
+	margin-left: 10px;
+}
+.header_title_right{
+	font-size: 18px;
+	color: #fff;
+	float: right; 
+	line-height: 50px;
+	margin-right: 10px;
+}
+/* header{
+	width: 100%;
+	height: 33px;
+	background: #8a9596;
+} */
+/* .min{
+	width: 1200px;
+	height: 100%;
+	background:#f6f6f6; 
+	margin: 0 auto;
+	border: 1px solid #ccc;
+	/* border-bottom: 1px solid #f0f0f0; */
+	/* box-shadow: 0px 5px 60px 4px rgba(0, 0, 0, 0.3);  */
+/* }
+.header_left{
+	width: 50px;
+	height: 33px;
+	background:blue;
+	background: #f0f0f0;
+	font-size: 14px;
+	color: #3498db;
+	font-weight: bold;
+	text-align: center;
+	line-height: 33px;
+	float: left;
+}
+.header_left:hover{
+	text-shadow: 0 0 1px,0 0 1px; 
+}
+.header_right{
+	width: 260px;
+	height: 33px;
+	background: #f0f0f0;
+	float: right;
+}
+.header_right li{
+	float: left; 
+	margin: 2px 10px 15px 15px;
+	font-size:14px;
+	font-weight: bold;
+	color: #3498db;
+	text-align: center;
+	line-height: 33px;
+}
+.header_right:hover{
+	text-shadow: 0 0 10px,0 0 30px;
+
+} */
+/* 自我介绍开始 */
+.about{
+	width: 1200px;
+	height: 320px;
+	background: #b0ccc9;
+	margin: 0 auto;
+	border-top:2px solid #f0f0f0;
+	border-bottom: 1px solid #f0f0f0;
+	border-left:1px solid #f0f0f0;
+	border-right:1px solid #f0f0f0;
+}
+.about_left{
+	width: 500px;
+	height: 100%; 
+	background: #edfbf9;
+
+	float: left;
+}
+.about_left img{
+	/* margin-top: 0px; */
+	margin-left: 83px;
+	border: 2px solid #fff;
+	box-shadow: 1px 2px 20px 3px rgba(0, 0, 0, 0.2);
+}
+.about_right{
+	width: 700px;
+	height: 100%;
+	background: #edfbf9;
+	float: right;
+}
+.about_right_li{
+	width: 609px;
+	height: 30px;
+	background:#f1f1f1; 
+	margin: 20px;
+	margin-top: 15px;
+	margin-left: 22px;
+	border-bottom: 3px solid #fff;
+	font-size: 14px;
+	color: #000;
+	font-family: rockwell; 
+	line-height: 30px;
+	padding-left: 20px;
+	box-sizing: border-box;
+	text-decoration: underline;
+}
+/* 自我介绍结束 */
+/* 个人技能开始 */
+.technique{
+	width: 1200px;
+	height: 300px;
+	background: #edfbf9;
+	margin: 0 auto;
+	border-bottom: 1px solid #f0f0f0;
+	padding-left: 10px;
+	box-sizing: border-box;
+}
+.technique_left{
+	width: 500px;
+	height: 300px;
+	background: #edfbf9;
+	float: left;
+}
+.technique_right{
+	width: 400px;
+	height: 300px;
+	float: right; 
+	margin-left: 200px;
+}
+.technique_right_title{
+	width: 100%;
+	height: 30px;
+	font-size: 20px;
+	color: #3498db;
+	font-weight: bold;
+	line-height: 30px;
+	text-align: center; 
+	margin-bottom: 17px;
+}
+/* .technique_right_title ul{
+	float: right;
+} */
+.technique_left li{
+	width: 180px;
+	height: 130px;
+	margin-top: 12px;
+	margin-right: 5px;
+	margin-left: 85px;
+	float: left;
+}
+.technique_left li:nth-child(2){
+	margin-left: 35px;
+}
+.technique_left li:nth-child(4){
+	margin-left: 35px;
+}
+/* .technique_right_li{
+	width: 550px;
+	height: 20px;
+	background: #d7d5d4;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-bottom: 18px;
+	float: right;
+} */
+ .technique_right ul{
+	width: 600px;
+	height: 100px;
+	float: right;
+} 
+.technique_right li{
+	width: 550px;
+	height: 20px;
+	background: #d7d5d4;
+	border-radius: 10px;
+	margin: 0 auto;
+	margin-bottom: 18px;
+	/* float: right; */
+}
+h1{
+	font-size: 16px;
+	color: #3498db;
+	margin-left: 30px;
+	/* float: right; */
+}
+.html_prent{
+	width: 300px;
+	height: 20px;
+	background:#e1d5ce;
+	border-radius: 10px;	
+}
+.JavaScript_prent{
+	width: 390px;
+	height: 20px;
+	background:#e1d5ce;
+	border-radius: 10px;
+}
+.Css_prent{
+	width: 300px;
+	height: 20px;
+	background:#e1d5ce;
+	border-radius: 10px;
+}
+.Photoshop_prent{
+	width: 455px;
+	height: 20px;
+	background:#e1d5ce;
+	border-radius: 10px;
+}
+h2{
+	font-size: 14px;
+	color: #fff;
+	float: right;
+}
+/* 个人技能结束 */
+/* 个人学习经历开始 */
+.studyEducation{
+	width: 1200px;
+	height: 300px;
+	/* background: #f6f6f6; */
+	background: #edfbf9;
+	margin: 0 auto;
+	/* box-shadow: 0px 2px 50px 5px rgba(0, 0, 0, 0.3); */
+	/* border-bottom: 1px solid #f0f0f0; */
+	/* border: 1px solid #ccc; */
+}
+.studyEducation_top{
+	width: 1200px;
+	height: 90px;
+	font-size: 20px;
+	font-weight: bold;
+    color: #3498db;
+	text-align: center;
+	line-height: 90px;
+	border-bottom: 1px solid #f0f0f0;
+}
+.studyEducation_bottom{
+	width: 900px;
+	height: 200px;
+	background: #fff;
+	margin: 0 auto;
+	/* border: 1px solid #ccc; */
+}
+.studyEducation_bottom_li{
+	width: 100%;
+	height: 60px;
+	border-bottom: 6px solid #e2e2e2;
+	font-size: 16px;
+	color: #000;
+	line-height: 60px;
+}
+/* 个人学习经历结束 */
+/* 个人作品展示开始 */
+.project{
+	width: 1200px;
+	height: 600px;
+	/* background: pink; */
+	/* background: #f6f6f6; */
+	background: #edfbf9;
+	margin: 0 auto;
+	/* border-bottom: 1px solid #f1f1f1;
+	border-left:1px solid #f1f1f1; */
+	/* border: 1px solid #ccc; */
+}
+.project_title{
+	width: 1200px;
+	height: 50px;
+	font-size: 20px;
+	color: #3498db;
+	font-weight:bold;
+	text-align: center;
+	line-height: 50px;
+	/* border: 1px solid #ccc; */
+}
+.project_list_title{
+	width: 1000px;
+	height: 70px;
+	margin: 0 auto;
+	font-size: 16px;
+	color: #000;
+	text-align: center;
+	line-height: 70px;
+}
+.project_list_title li{
+	width: 155px;
+	height: 70px;
+	float: left;
+	margin-right: 11px;
+}
+.project_web_design{
+	width: 1000px;
+	height: 50px;
+	margin: 0 auto;
+	font-size: 20px;
+	color:#000;
+	text-align: center;
+	line-height: 50px;
+}
+.project_list{
+	width: 1200px;
+	height: 430px;
+	/* background: #f6f6f6; */
+	background: #edfbf9;
+}
+.project_list_left{
+	width: 100px;
+	height: 430px;
+	/* background:#f6f6f6;  */
+	background: #edfbf9;
+	float: left;	
+} 
+.project_right{
+	width: 1100px;
+	height: 430px;
+	/* background: blue; */
+}
+.project_right li{
+	width: 280px;
+	height: 200px;
+	/* background: yellow; */
+	float: left;
+	margin-top: 10px;
+	margin-left: 50px;
+}
+/* 个人作品展示结束 */
+/* 联系方式开始 */
+.touch{
+	width:1200px;
+	height:356px;
+	/* background: #fff; */
+	background: #edfbf9;
+	margin:0 auto;
+	border-bottom: 1px solid #f1f1f1;
+	border-left: 1px solid #f1f1f1;
+	border-right: 1px solid #f1f1f1;
+	/* border: 1px solid #ccc; */
+}
+.touch_top{
+	width:100%;
+	height:50px;
+	/* background: #fff; */
+	background: #edfbf9;
+	border-bottom: 1px solid #f1f1f1;
+	font-size: 20px;
+	color: #000;
+	text-align: center;
+	line-height: 50px;
+}
+.touch_bottom{
+	width:100%;
+	height:305px;
+	/* background: #fff; */
+	background: #edfbf9;
+}
+.touch_bottom_left{
+	width:250px;
+	height:283px;
+	background: #fff;
+	float:left;
+	margin-left: 152px;
+	box-shadow: 2px 2px 30px 5px rgba(0,0,0,0.2);
+}
+.touch_bottom_right{
+	width:548px;
+	height:280px;
+	/* background: #fff; */
+	background: #edfbf9;
+	float:left;
+	margin-left: 80px;
+}
+.touch_bottom_left li{
+	width:230px;
+	height:40px;
+	margin:0 auto;
+	margin-bottom: 8px;
+	border-bottom: 2px solid #f0f0f0;
+	font-size:20px;
+	color:#000;
+	line-height: 40px;
+}
+.touch_bottom_left li:nth-child(1)~li{
+	font-size:14px;
+	color:#000;
+	line-height: 40px;
+}
+.touch_bottom_left_first{
+	width:100%;
+	height:69px;
+	box-shadow: 2px 2px 30px 5px rgba(0,0,0,0.2); 
+	margin-bottom: 9px;
+	font-size:20px;
+	color:#000;
+	padding-left: 30px;
+	padding-top: 20px;
+	box-sizing: border-box;
+}
+.touch_bottom_left_second{
+	width:100%;
+	height:69px;
+	box-shadow: 2px 2px 30px 5px rgba(0,0,0,0.2);
+	margin-bottom: 9px; 
+	font-size:20px;
+	color:#000;
+	padding-left: 30px;
+	padding-top: 20px;
+	box-sizing: border-box;
+}
+.touch_bottom_left_third{
+	width:100%;
+	height:69px;
+	box-shadow: 2px 2px 30px 5px rgba(0,0,0,0.2);
+	margin-bottom: 9px; 
+	font-size:20px;
+	color:#000;
+	padding-left: 30px;
+	padding-top: 20px;
+	box-sizing: border-box;
+}
+/* 联系方式结束 */
+/* 底部开始 */
+.last{
+	width:100%;
+	height:60px;
+	background: #193334;
+	margin:0 auto;
+	/* padding-left: 100px; */
+	/* padding-top: 18px;  
+	padding-bottom: 2px; */
+	/* box-sizing: border-box; */
+	/* border: 1px solid #ccc; */
+}
+.last_bottom{
+	width: 800px;
+	height: 40px;
+}
+.weibo{
+	width:60px;
+	height:40px;
+	margin-left: 270px;
+	margin-top: 10px;
+	float:left;
+}
+.weibo img{
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.weixin{
+	width:90px;
+	height:40px;
+	/* background: blue; */
+	margin-left: 30px;
+	margin-top: 10px;
+	float:left;
+}
+.weixin img{
+	margin-left: 30px;
+	margin-top: 10px;
+}
+.last_last{
+	/* width: 100%; */
+	height: 20px;
+	color: #fff;
+	font-size: 12px;
+	text-align: center;
+	line-height:10px; 
+}
+ 
+
+
+/* 底部结束 */
